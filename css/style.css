@@ -1,0 +1,152 @@
+@import url(style.css);
+@import url(fontawesome-all.min.css);
+@font-face {
+  font-family: 'Arvo', serif; }
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto; }
+
+.black {
+  background-color: #232323; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif; }
+  body header {
+    border-bottom: 1px solid grey; }
+    body header .black {
+      background-color: #232323;
+      padding: 8px 0; }
+      body header .black .link {
+        display: block;
+        text-align: right; }
+        body header .black .link a {
+          text-decoration: none;
+          color: white; }
+        body header .black .link .support {
+          margin-right: 28px; }
+    body header .light {
+      background: #ebebeb; }
+      body header .light .logo {
+        padding-top: 4px; }
+      body header .light .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between; }
+      body header .light .right {
+        display: block;
+        font-size: 16px;
+        color: #5dd1ff;
+        font-weight: 700;
+        padding-top: 16px; }
+      body header .light a {
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        color: #5dd1ff; }
+      body header .light span {
+        display: inline-block; }
+        body header .light span .normal {
+          font-weight: 400; }
+  body section.block_1 {
+    background: white;
+    width: 100%;
+    padding: 75px 0 60px 0; }
+    body section.block_1 .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center; }
+      body section.block_1 .flex-container span {
+        display: inline-block;
+        color: #232323;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: left; }
+      body section.block_1 .flex-container a {
+        display: inline-block;
+        padding: 30px 0 30px 0;
+        background: #5dd1ff;
+        width: 240px;
+        border-radius: 35px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        margin-left: 27px; }
+  body section.block_2 {
+    background: #5dd1ff;
+    width: 100%;
+    padding: 32px 0 42px 0; }
+    body section.block_2 span {
+      display: block;
+      color: white;
+      font-size: 35px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 35px; }
+    body section.block_2 .flex-container-2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; }
+    body section.block_2 img {
+      margin-right: 5px; }
+    body section.block_2 .dot {
+      font-size: 25px;
+      letter-spacing: 5px; }
+  body section.block_3 {
+    background: white;
+    width: 100%;
+    padding-bottom: 65px; }
+    body section.block_3 h2 {
+      display: block;
+      padding-top: 8px;
+      font-weight: 700;
+      font-size: 23px;
+      color: white;
+      text-transform: uppercase;
+      margin-top: -2px;
+      text-align: center; }
+    body section.block_3 .fas {
+      display: block;
+      font-size: 30px;
+      color: white;
+      text-align: center;
+      margin-top: -19px;
+      margin-bottom: 10px; }
+    body section.block_3 .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between; }
+      body section.block_3 .flex-container .flex-element {
+        width: 450px;
+        color: #232323;
+        font-size: 14px;
+        line-height: 1.5;
+        padding-right: 30px; }
+        body section.block_3 .flex-container .flex-element h3 {
+          font-weight: 700;
+          font-size: 16px; }
+  body footer {
+    background: #ebebeb;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    color: #232323;
+    font-size: 14px; }
+    body footer .left {
+      display: block;
+      text-align: center; }
+    body footer .right-2 {
+      display: block;
+      text-align: center;
+      font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
